@@ -26,7 +26,7 @@ const Preloader = () => {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="font-cormorant text-4xl md:text-6xl text-white tracking-[0.5em]"
+            className="font-cormorant text-3xl md:text-6xl text-white tracking-[0.5em]"
           >
             VELMORA
           </motion.h1>

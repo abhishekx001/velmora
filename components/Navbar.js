@@ -37,7 +37,7 @@ const Navbar = () => {
         {/* Left: Logo */}
         <Link 
           href="/" 
-          className={`font-cormorant text-2xl tracking-[0.3em] font-medium transition-colors duration-300 ${
+          className={`font-cormorant text-xl md:text-2xl tracking-[0.3em] font-medium transition-colors duration-300 ${
             isScrolled ? "text-burgundy" : "text-near-black hover:text-burgundy"
           }`}
         >
@@ -84,7 +84,7 @@ const Navbar = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-burgundy-ultra-light border-b border-[rgba(109, 27, 31, 0.2)] overflow-hidden"
+            className="md:hidden bg-white border-b border-gray-100 overflow-hidden"
           >
             <div className="flex flex-col items-center py-8 space-y-6">
               {navLinks.map((link) => (
@@ -92,7 +92,7 @@ const Navbar = () => {
                   key={link.name}
                   href={link.href}
                   onClick={() => setIsMenuOpen(false)}
-                  className="font-dm text-xs uppercase tracking-[0.2em] text-near-black hover:text-burgundy transition-colors"
+                  className="font-dm text-xs uppercase tracking-[0.2em] text-burgundy hover:text-burgundy-light transition-colors"
                 >
                   {link.name}
                 </Link>

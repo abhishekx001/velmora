@@ -30,7 +30,7 @@ const CollectionCard = ({ product }) => {
         </h3>
         <p className="font-dm text-xs text-warm-gray mb-3">{product.price}</p>
         <button className="font-dm text-[10px] uppercase tracking-widest text-burgundy border-b border-burgundy pb-0.5 hover:text-burgundy-light hover:border-burgundy-light transition-colors">
-          Enquire
+          Buy Now
         </button>
       </div>
     </motion.div>

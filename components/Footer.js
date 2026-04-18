@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="py-16 px-6 bg-white">
       <div className="container mx-auto max-w-7xl text-center">
-        <h2 className="font-cormorant text-2xl tracking-[0.4em] font-medium text-near-black mb-4">
+        <h2 className="font-cormorant text-xl md:text-2xl tracking-[0.4em] font-medium text-near-black mb-4">
           VELMORA
         </h2>
         <p className="font-cormorant italic text-sm text-warm-gray mb-10 tracking-wider">

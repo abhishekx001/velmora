@@ -18,11 +18,14 @@ export const metadata = {
   description: "Ultra-premium handcrafted jewelry for the modern woman. Explore our curated collection of rings, necklaces, earrings, and bracelets.",
 };
 
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${cormorant.variable} ${dmSans.variable} font-dm antialiased`}>
         {children}
+        <FloatingWhatsApp />
       </body>
     </html>
   );

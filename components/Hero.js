@@ -72,7 +72,7 @@ const Hero = () => {
         <motion.div variants={itemVariants}>
           <a
             href="#collection"
-            className="inline-block border border-burgundy text-burgundy hover:bg-burgundy hover:text-white px-10 py-4 tracking-[0.2em] uppercase text-[10px] transition-all duration-300"
+            className="inline-block rounded-full border border-burgundy bg-burgundy text-white hover:bg-white hover:text-burgundy px-10 py-4 tracking-[0.2em] uppercase text-[10px] transition-all duration-300 shadow-md"
           >
             Explore Collection
           </a>
